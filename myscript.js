@@ -10,7 +10,9 @@
 
 let fizzBuzz
 
-const divElement = document.querySelector('div');
+const divElement = document.getElementById('fizz');
+const otherDivElement = document.getElementById('buzz');
+
 
 for (let i = 1; i <= 100 ; i ++){
 console.log(i);
@@ -30,6 +32,10 @@ else if (i % 3  === 0){
 
 }else if (i % 5 === 0) {
     console.log('Buzz');
+    const BUZZnumber = document.createElement('p');
+    BUZZnumber.append('Buzz: ' + i);
+
+    otherDivElement.append( BUZZnumber);
 }
 
 }

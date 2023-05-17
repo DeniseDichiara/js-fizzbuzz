@@ -1,3 +1,9 @@
-div{
+#fizz{
     font-style: italic;
+    color: blue;
+}
+
+#buzz{
+    font-style:normal;
+    color: red;
 }

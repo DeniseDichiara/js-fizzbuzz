@@ -23,7 +23,7 @@ if((i % 3 === 0) && (i % 5 === 0)){
 else if (i % 3  === 0){
     console.log('Fizz');
     const FIZZnumber = document.createElement('p');
-    FIZZnumber.append('number: ' + i);
+    FIZZnumber.append('Fizz: ' + i);
 
     divElement.append(FIZZnumber);
 
